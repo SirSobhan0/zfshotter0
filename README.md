@@ -1,6 +1,6 @@
-# ZFShotter
+# ZFShotter0
 
-ZFShotter is a utility designed to automate the creation of ZFS snapshots and
+ZFShotter0 is a utility designed to automate the creation of ZFS snapshots and
 replicate them to remote servers
 
 
@@ -24,13 +24,13 @@ replicate them to remote servers
 
 ## Installation
 
-To install ZFShotter, follow these steps:
+To install ZFShotter0, follow these steps:
 
 1. Clone the repository to your desired directory (e.g., `/opt/`, `/usr/local/`,
    or wherever you want). In this documentation, we will use `/usr/local`:
 
    ```bash
-   git clone https://github.com/mojtabamoaddab/zfshotter.git /usr/local/zfshotter
+   git clone https://github.com/SirSobhan0/ZFShotter0.git /usr/local/ZFShotter0
    ```
 
 2. Configure Jobs according configuration section.
@@ -38,12 +38,12 @@ To install ZFShotter, follow these steps:
 3. Define a job scheduler (e.g., cron or systemd-timer) to run the jobs with following command:
 
    ```bash
-   /usr/local/zfshotter/bin/zfshotter.sh <JOB_NAME>
+   /usr/local/ZFShotter0/bin/ZFShotter0.sh <JOB_NAME>
    ```
 
 ## Configuration
 
-The configuration for ZFShotter is organized into a `config` directory,
+The configuration for ZFShotter0 is organized into a `config` directory,
 which contains three subdirectories: `jobs`, `datasets`, and `replications`.
 Each subdirectory holds `.conf` files that define the respective configurations.
 
